@@ -43,7 +43,15 @@
     ?>
     <h2>static scope</h2>
     <?php
-
+    function staticDef()
+    {
+        static $testingVar = "testing"; //can't assign any variable to it nor any function
+        echo "static value =  " . $testingVar . "<br>";
+        $testingVar++;
+    }
+    staticDef();
+    staticDef();
+    staticDef();
     ?>
 </body>
 
