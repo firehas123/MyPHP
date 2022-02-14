@@ -19,9 +19,8 @@
         //now the scope is global it is not constant
     }
     fr();
-    echo LOGO . "<hr";
+    //echo LOGO . "<hr";
     ?>
-    <h1>tsasdadasdasdasdsdsad</h1>
 </body>
 
 </html>
